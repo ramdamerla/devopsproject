@@ -7,4 +7,5 @@ yum install wget -y
 yum install zip -y
 uname -a
 cat /etc/passwd
+df -h > /var/tmp/test.txt
 echo "this is done"
