@@ -6,5 +6,5 @@ echo " testing the job"
 yum install wget -y 
 yum install zip -y
 uname -a
-df -h
+cat /etc/passwd
 echo "this is done"
