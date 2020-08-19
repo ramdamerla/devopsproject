@@ -14,7 +14,7 @@ git 'https://github.com/ramdamerla/devopsproject.git'
 stage('Building our image') {
 steps{
 script {
-sudo -u devops dockerImage = docker.build registry + ":$BUILD_NUMBER"
+sudo dockerImage = docker.build registry + ":$BUILD_NUMBER"
 }
 }
 }
